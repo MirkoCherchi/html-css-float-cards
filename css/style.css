@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Fredoka', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #e53170;
+    margin-bottom: 50px;
 }
