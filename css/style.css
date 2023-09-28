@@ -8,9 +8,15 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Fredoka', sans-serif;
 }
 
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+
+}
+
 header{
     text-align: center;
-    background-color: aquamarine;
     padding: 30px;
 }
 
@@ -23,3 +29,12 @@ h1{
     color: #e53170;
     margin-bottom: 50px;
 }
+
+.card > .box{
+    background-color: black;
+    width: calc(100% / 3 - 40px);
+    float: left;
+    margin: 20px;
+}
+
+
