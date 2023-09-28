@@ -27,14 +27,27 @@ header{
 
 h1{
     color: #e53170;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .card > .box{
-    background-color: black;
+    /* background-color: black; */
     width: calc(100% / 3 - 40px);
     float: left;
     margin: 20px;
 }
 
+.foto{
+    width: 100px;
+    float: left;
+    background-color: red;
+}
 
+.info{
+    width: calc(100% - 100px);
+    float: left;
+}
+
+.contenuto{
+    float: left;
+}
